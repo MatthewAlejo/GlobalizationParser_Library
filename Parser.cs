@@ -303,7 +303,7 @@ namespace GlobalizationParser
         /// <param name="projectPath"> The output file path </param>
         /// <param name="filename"> The name of the output file </param>
         /// <param name="output"> The contents of the output file </param>
-        private static void ExportFileToText(string projectPath, string filename, List<FileParseResult> results)
+        public static void ExportFileToText(string projectPath, string filename, List<FileParseResult> results)
         {
             string outputPath, output;
             DateTime date = DateTime.Now;
