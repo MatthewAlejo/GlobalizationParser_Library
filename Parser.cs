@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 namespace GlobalizationParser
 {
-    class Parser
+    public class Parser
     {
         private enum _filetype {
             CS,

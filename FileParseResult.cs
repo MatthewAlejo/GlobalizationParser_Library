@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GlobalizationParser
 {
-    class FileParseResult
+    public class FileParseResult
     {
         public FileParseResult(string fileName) {
             this.fileName = fileName;
